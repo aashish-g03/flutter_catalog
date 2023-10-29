@@ -1,0 +1,62 @@
+name: fluttercatalog
+description: A new Flutter application.
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  functional_widget_annotation: ^0.10.0
+  flutter_otp_text_field: ^1.1.0
+  carousel_slider: ^4.1.1
+  animations: ^2.0.3
+  flutter_svg: ^1.1.3
+  flutter_rating_bar: ^4.0.1
+  rxdart: ^0.27.5
+  url_launcher: ^6.1.5
+  bubble_tab_indicator: ^0.1.6
+  dots_indicator: ^2.1.0
+  auto_route: ^4.2.1
+  google_fonts: ^4.0.4
+  flutter_feather_icons: ^2.0.0+1
+  font_awesome_flutter: ^10.1.0
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  functional_widget: ^0.10.0
+  auto_route_generator: ^4.2.0
+  flutter_launcher_icons: "^0.9.3"
+
+flutter_icons:
+  image_path: "assets/images/app_icon.png"
+  android: true
+  ios: true
+
+builders:
+  functional_widget: ^0.8.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/images/
+     - assets/images/categories/
+     - assets/images/drop_images/
+     - assets/images/roam_images/
+     - assets/images/balenciaga_images/
+  fonts:
+    - family: Try Clother
+      fonts:
+        - asset: assets/fonts/TRY_Clother/TRY_Clother-Black.ttf
+          weight: 500
+        - asset: assets/fonts/TRY_Clother/TRY_Clother-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/TRY_Clother/TRY_Clother-Light.ttf
+          weight: 300
+        - asset: assets/fonts/TRY_Clother/TRY_Clother-Regular.ttf
+          weight: 400
